@@ -1,8 +1,12 @@
 package com.pxl.student.bean;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Account {
 
-    private int id;
+    private long id;
     private String number;
     private String IBAN;
     private String name;
@@ -20,11 +24,15 @@ public class Account {
         this.name = name;
     }
 
-    public int getId() {
+    public Account() {
+    }
+
+    @Id
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 

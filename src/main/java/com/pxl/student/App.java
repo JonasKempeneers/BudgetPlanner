@@ -1,10 +1,5 @@
 package com.pxl.student;
 
-import Utility.BudgetPlannerDB;
-import com.pxl.student.dao.*;
-import com.pxl.student.bean.Account;
-import com.pxl.student.bean.Payment;
-
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Random;
@@ -20,9 +15,6 @@ public class App {
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
         Date d = null;
 
-        System.out.println(AccountDao.getMaxIdFromAccount());
-
-        System.out.println(AccountDao.getAccountById(AccountDao.getMaxIdFromAccount()));
 
     }
 
