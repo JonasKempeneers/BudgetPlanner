@@ -2,43 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1297db43-3cbc-435d-83fa-441c5d19b444" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_jsr250_api_1_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_el_api_2_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_enterprise_cdi_api_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_5_4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_6_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_2_6_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_interceptor_jboss_interceptors_api_1_1_spec_1_0_0_Beta1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/pxl/student/BudgetPlannerTest.java" />
-      <change beforePath="$PROJECT_DIR$/BudgetPlanner.iml" afterPath="$PROJECT_DIR$/BudgetPlanner.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pxl/student/App.java" afterPath="$PROJECT_DIR$/src/main/java/com/pxl/student/App.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pxl/student/bean/Account.java" afterPath="$PROJECT_DIR$/src/main/java/com/pxl/student/bean/Account.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pxl/student/dao/AccountDao.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pxl/student/dao/LabelDao.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pxl/student/dao/PaymentDao.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pxl/student/dao/AccountDaoTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Utility/BudgetPlannerDB.class" afterPath="$PROJECT_DIR$/target/classes/Utility/BudgetPlannerDB.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pxl/student/App.class" afterPath="$PROJECT_DIR$/target/classes/com/pxl/student/App.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pxl/student/bean/Account.class" afterPath="$PROJECT_DIR$/target/classes/com/pxl/student/bean/Account.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pxl/student/bean/Label.class" afterPath="$PROJECT_DIR$/target/classes/com/pxl/student/bean/Label.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pxl/student/bean/Payment.class" afterPath="$PROJECT_DIR$/target/classes/com/pxl/student/bean/Payment.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pxl/student/dao/AccountDao.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pxl/student/dao/LabelDao.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/pxl/student/dao/PaymentDao.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pxl/student/AppTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/pxl/student/AppTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/pxl/student/dao/AccountDaoTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/pxl/student/BudgetPlannerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/pxl/student/BudgetPlannerTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -106,8 +70,8 @@
       <file leaf-file-name="BudgetPlannerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/pxl/student/BudgetPlannerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+            <state relative-caret-position="306">
+              <caret line="54" column="21" lean-forward="false" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -173,9 +137,9 @@
         <option value="$PROJECT_DIR$/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/pxl/student/bean/Account.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/pxl/student/App.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/pxl/student/BudgetPlannerTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/pxl/student/BudgetPlannerTest.java" />
       </list>
     </option>
   </component>
@@ -350,7 +314,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BudgetPlannerTest.testAddAccountToDatabase">
+  <component name="RunManager" selected="JUnit.BudgetPlannerTest.testGetAccountFromDatabase">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" runner="idea">
         <pattern>
@@ -434,6 +398,31 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="BudgetPlannerTest.testGetAccountFromDatabase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.pxl.student.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="BudgetPlanner" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.pxl.student" />
+      <option name="MAIN_CLASS_NAME" value="com.pxl.student.BudgetPlannerTest" />
+      <option name="METHOD_NAME" value="testGetAccountFromDatabase" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -493,16 +482,18 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.App" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.AccountDaoTest.testAddAccount" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.BudgetPlannerTest.testAddAccountToDatabase" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BudgetPlannerTest.testGetAccountFromDatabase" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BudgetPlannerTest.testAddAccountToDatabase" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AccountDaoTest.testAddAccount" />
-        <item index="2" class="java.lang.String" itemvalue="Application.App" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.BudgetPlannerTest.testGetAccountFromDatabase" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.BudgetPlannerTest.testAddAccountToDatabase" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AccountDaoTest.testAddAccount" />
+        <item index="3" class="java.lang.String" itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -525,14 +516,11 @@
       <workItem from="1522134761628" duration="1496000" />
       <workItem from="1522138286367" duration="2655000" />
       <workItem from="1522142686772" duration="2352000" />
-      <workItem from="1522145061184" duration="232000" />
+      <workItem from="1522145061184" duration="979000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AccountDaoTest_testAddAccount - 2018.03.27 at 09h 19m 11s.xml">
-      <configuration name="AccountDaoTest.testAddAccount" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AccountDaoTest_testAddAccount - 2018.03.27 at 09h 52m 27s.xml">
       <configuration name="AccountDaoTest.testAddAccount" configurationId="JUnit" />
     </history-entry>
@@ -560,9 +548,12 @@
     <history-entry file="BudgetPlannerTest_testAddAccountToDatabase - 2018.03.27 at 12h 07m 01s.xml">
       <configuration name="BudgetPlannerTest.testAddAccountToDatabase" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BudgetPlannerTest_testGetAccountFromDatabase - 2018.03.27 at 12h 18m 53s.xml">
+      <configuration name="BudgetPlannerTest.testGetAccountFromDatabase" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28488000" />
+    <option name="totallyTimeSpent" value="29235000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -575,7 +566,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -588,7 +578,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -952,14 +942,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/pxl/student/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pxl/student/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -989,10 +971,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/pxl/student/BudgetPlannerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/pxl/student/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+          <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/pxl/student/BudgetPlannerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="54" column="21" lean-forward="false" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
