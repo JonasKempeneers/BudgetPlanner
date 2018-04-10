@@ -9,13 +9,12 @@ import javax.persistence.Persistence;
 
 public class AccountRepo {
 
-    private EntityManagerFactory _emf = Persistence.createEntityManagerFactory("Budgetplanner");
+    private EntityManagerFactory _emf = Persistence.createEntityManagerFactory("BudgetPlanner");
 
-    public void AddAccount(String number, String IBAN, String name){
+    public void AddAccount(Account account){
 
         EntityManager em = _emf.createEntityManager();
         EntityTransaction tx = em.getTransaction();
-        Account account = new Account(number, IBAN, name);
         tx.begin();
         em.persist(account);
         tx.commit();

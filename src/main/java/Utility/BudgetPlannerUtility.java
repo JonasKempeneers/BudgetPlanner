@@ -1,9 +1,6 @@
 package Utility;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.EntityTransaction;
-import javax.persistence.Persistence;
+import javax.persistence.*;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.util.Random;
@@ -33,7 +30,10 @@ public class BudgetPlannerUtility {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("BudgetPlanner");
         EntityManager em = emf.createEntityManager();
 
-        //count = em.
+        Query query = em.createQuery("select count(*) from Account");
+
+        //count = query.getSingleResult();
+
 
         return count;
     }
