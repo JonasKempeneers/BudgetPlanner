@@ -1,9 +1,12 @@
 package com.pxl.student;
 
-import Utility.BudgetPlannerDB;
-import com.pxl.student.bean.Account;
+import Utility.BudgetPlannerUtility;
+import com.pxl.student.EntityClasses.Account;
+import com.pxl.student.EntityClasses.Payment;
+import com.pxl.student.EntityClasses.PaymentRepo;
 import junit.framework.TestCase;
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -11,14 +14,14 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
+import java.util.List;
 
 public class BudgetPlannerTest extends TestCase {
 
     private EntityManagerFactory _emf;
     private EntityManager _em;
-    private EntityTransaction _tx;
-    private String _number = BudgetPlannerDB.generateRandomNumber();
-    private String _IBAN = BudgetPlannerDB.generateIBAN();
+    private String _number = BudgetPlannerUtility.generateRandomNumber();
+    private String _IBAN = BudgetPlannerUtility.generateIBAN();
     private String _name = "Random Test Accout";
     Account actualAccount = createAccount();
 
@@ -41,23 +44,36 @@ public class BudgetPlannerTest extends TestCase {
 
     @Test
     public void testAddAccountToDatabase(){
-        _tx = _em.getTransaction();
-        _tx.begin();
-        _em.persist(actualAccount);
-        _tx.commit();
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("BudgetPlanner");
+        EntityManager em = emf.createEntityManager();
+        EntityTransaction tx = em.getTransaction();
+        tx.begin();
+        em.persist(actualAccount);
+        tx.commit();
+
 
 
     }
 
     @Test
     public void testGetAccountFromDatabase(){
-
-        _tx = _em.getTransaction();
-        _tx.begin();
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("BudgetPlanner");
+        EntityManager em = emf.createEntityManager();
+        EntityTransaction tx = em.getTransaction();
+        tx = _em.getTransaction();
+        tx.begin();
         Account expectedAccount = actualAccount;
         actualAccount = _em.find(Account.class, 1L);
 
         assertEquals(expectedAccount, actualAccount);
+    }
+
+    @Test
+    public void testGetPaymentsByAccountId(){
+        PaymentRepo repo = new PaymentRepo();
+        List<Payment> paymentList = repo.getPaymentsByAccountId(1);
+
+        Assert.assertEquals(2, paymentList.size());
     }
 
 }

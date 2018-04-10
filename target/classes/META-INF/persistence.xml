@@ -12,7 +12,8 @@
             <property name="javax.persistence.jdbc.user" value="student"></property>
             <property name="javax.persistence.jdbc.password" value="student"></property>
 
-            <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"></property>
+            <!--You can put "create" or "drop-and-create" here-->
+            <property name="javax.persistence.schema-generation.database.action" value="none"></property>
 
             <property name="hibernate.show_sql" value="true"></property>
         </properties>

@@ -1,9 +1,17 @@
-package com.pxl.student.bean;
+package com.pxl.student.EntityClasses;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import java.applet.AudioClip;
 import java.util.Date;
 
+@Entity
 public class Payment {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
     private Date date;
     private float amount;
@@ -22,6 +30,9 @@ public class Payment {
         this.accountId = accountId;
         this.counterAccountId = counterAccountId;
         this.labelId = labelId;
+    }
+
+    public Payment() {
     }
 
     public int getId() {

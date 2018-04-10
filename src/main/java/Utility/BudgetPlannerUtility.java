@@ -1,23 +1,14 @@
 package Utility;
 
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.util.Random;
 
-public class BudgetPlannerDB {
-
-    private static Connection connection;
-
-    public static Connection getConnection() {
-
-        try{
-            connection = DriverManager.getConnection("jdbc:mysql://192.168.33.22/budgetplanner?useSSL=false", "student", "student");
-        } catch(Exception e){
-            e.printStackTrace();
-        }
-
-        return connection;
-    }
+public class BudgetPlannerUtility {
 
     public static String generateRandomNumber(){
         Random random = new Random();
@@ -34,5 +25,16 @@ public class BudgetPlannerDB {
         sb.reverse();
 
         return sb.toString();
+    }
+
+    public static int getAccountCount(){
+        int count = 0;
+
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("BudgetPlanner");
+        EntityManager em = emf.createEntityManager();
+
+        //count = em.
+
+        return count;
     }
 }
