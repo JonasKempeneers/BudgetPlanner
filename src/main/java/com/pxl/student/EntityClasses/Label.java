@@ -1,9 +1,7 @@
 package com.pxl.student.EntityClasses;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.List;
 
 @Entity
 public class Label {
@@ -13,6 +11,9 @@ public class Label {
     private int id;
     private String name;
     private String description;
+
+    @OneToMany(mappedBy = "label")
+    List<Payment> payments;
 
     public Label(int id, String name, String description) {
         this.id = id;

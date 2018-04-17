@@ -12,10 +12,9 @@ public class PaymentRepo {
     public List<Payment> getPaymentsByAccountId(int accountId) {
         EntityManager em = _emf.createEntityManager();
         Query query = em.createQuery("Select p.id, p.date, p.amount, p.currency, p.detail, p.accountId, p.counterAccountId, " +
-                "p.labelId FROM Payment AS p where p.accountId = :accountId");
+                "p.label FROM Payment AS p where p.accountId = :accountId");
         query.setParameter("accountId", accountId);
-        List<Payment> paymentList = query.getResultList();
 
-        return paymentList;
+        return query.getResultList();
     }
 }

@@ -1,9 +1,6 @@
 package com.pxl.student.EntityClasses;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.applet.AudioClip;
 import java.util.Date;
 
@@ -20,16 +17,19 @@ public class Payment {
 
     private int accountId;
     private int counterAccountId;
-    private int labelId;
 
-    public Payment(Date date, float amount, String currency, String detail, int accountId, int counterAccountId, int labelId) {
+    @ManyToOne
+    @JoinColumn(name= "labelId")
+    private Label label;
+
+    public Payment(Date date, float amount, String currency, String detail, int accountId, int counterAccountId, Label label) {
         this.date = date;
         this.amount = amount;
         this.currency = currency;
         this.detail = detail;
         this.accountId = accountId;
         this.counterAccountId = counterAccountId;
-        this.labelId = labelId;
+        this.label = label;
     }
 
     public Payment() {
@@ -91,11 +91,11 @@ public class Payment {
         this.counterAccountId = counterAccountId;
     }
 
-    public int getLabelId() {
-        return labelId;
+    public Label getLabel() {
+        return label;
     }
 
-    public void setLabelId(int labelId) {
-        this.labelId = labelId;
+    public void setLabel(Label label) {
+        this.label = label;
     }
 }
