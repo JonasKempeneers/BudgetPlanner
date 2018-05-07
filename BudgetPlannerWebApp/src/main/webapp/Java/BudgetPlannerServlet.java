@@ -3,7 +3,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@Webservlet("")
+//@Webservlet("AddAccount")
 public class BudgetPlannerServlet {
 
     protected void doGet (HttpServletRequest request, HttpServletResponse response) throws IOException{
