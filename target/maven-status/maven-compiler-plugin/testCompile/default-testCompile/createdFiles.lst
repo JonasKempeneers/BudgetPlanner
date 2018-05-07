@@ -1,4 +1,4 @@
-com\pxl\student\AppTest.class
-com\pxl\student\BudgetPlannerTest.class
-com\pxl\student\AccountTest.class
-com\pxl\student\TestUtility\DatabaseUtility.class
+com/pxl/student/BudgetPlannerTest.class
+com/pxl/student/TestUtility/DatabaseUtility.class
+com/pxl/student/AccountTest.class
+com/pxl/student/AppTest.class

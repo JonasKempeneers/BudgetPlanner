@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="BudgetplannerWar">
+    <output-path>$PROJECT_DIR$/out/artifacts/BudgetplannerWar</output-path>
+    <root id="archive" name="BudgetplannerWar.war" />
+  </artifact>
+</component>

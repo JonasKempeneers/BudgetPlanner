@@ -1,8 +1,8 @@
-com\pxl\student\EntityClasses\PaymentRepo.class
-com\pxl\student\EntityClasses\LabelRepo.class
-com\pxl\student\EntityClasses\AccountRepo.class
-Utility\BudgetPlannerUtility.class
-com\pxl\student\App.class
-com\pxl\student\EntityClasses\Account.class
-com\pxl\student\EntityClasses\Label.class
-com\pxl\student\EntityClasses\Payment.class
+com/pxl/student/App.class
+com/pxl/student/EntityClasses/Account.class
+com/pxl/student/EntityClasses/AccountRepo.class
+com/pxl/student/EntityClasses/Payment.class
+com/pxl/student/EntityClasses/LabelRepo.class
+com/pxl/student/EntityClasses/Label.class
+com/pxl/student/EntityClasses/PaymentRepo.class
+Utility/BudgetPlannerUtility.class

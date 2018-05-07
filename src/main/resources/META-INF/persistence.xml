@@ -8,7 +8,12 @@
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <properties>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"></property>
-            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://192.168.33.22/budgetplanner?useSSL=false"></property>
+
+            <!--<property name="javax.persistence.jdbc.url" value="jdbc:mysql://192.168.33.22/budgetplanner?useSSL=false"></property>-->
+            <!--<property name="javax.persistence.jdbc.user" value="student"></property>-->
+            <!--<property name="javax.persistence.jdbc.password" value="student"></property>-->
+
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:8889/budgetplanner?useSSL=false"></property>
             <property name="javax.persistence.jdbc.user" value="student"></property>
             <property name="javax.persistence.jdbc.password" value="student"></property>
 
